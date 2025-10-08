@@ -1,0 +1,23 @@
+Drill report for DC34_Cnet_Badge_SAO.kicad_pcb
+Created on 2025-10-07T14:54:43-0700
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'DC34_Cnet_Badge_SAO-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.900mm  0.0354"  (8 holes)
+    T2  1.000mm  0.0394"  (6 holes)
+
+    Total plated holes count 14
+
+
+Drill file 'DC34_Cnet_Badge_SAO-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

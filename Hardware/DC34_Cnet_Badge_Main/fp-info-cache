@@ -1,4 +1,4 @@
-26303312919174116
+26297782576557022
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60025,13 +60025,6 @@ fiducial
 1
 0
 Fiducial
-Fiducial_Cross_0.5mm_Mask2mm
-Circular Fiducial, Cross variant, 0.5mm bare copper, 2mm soldermask opening
-fiducial
-0
-1
-0
-Fiducial
 Fiducial_Cross_1.5mm_Mask2mm
 Fiducial, cross variant, 1.5mm bare copper, 2mm soldermask opening
 fiducial
@@ -65306,13 +65299,6 @@ Inductor_SMD
 L_Vishay_IHSM-5832
 Inductor, Vishay, IHSM-5832, 16.26x8.13x7.24mm, (https://www.vishay.com/docs/34020/ihsm-5832.pdf), generated with kicad-footprint-generator gen_inductor.py
 wirewound ferrite power
-0
-2
-2
-Inductor_SMD
-L_Vishay_IHSM-7382
-Inductor, Vishay, Vishay_IHSM-7382, http://www.vishay.com/docs/34021/ihsm7832.pdf, 21.3mmx8.1mm
-inductor vishay icsm smd
 0
 2
 2
@@ -84128,13 +84114,6 @@ HTQFP-64 Pitch 0.5
 Package_QFP
 Hitachi_FP80B_PQFP-80_14x20mm_P0.8mm
 Hitachi FP80B PQFP, 80 Pin (Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28), generated with kicad-footprint-generator ipc_gullwing_generator.py
-Hitachi PQFP QFP Hitachi_FP-80B
-0
-80
-80
-Package_QFP
-Hitachi_PQFP-80_14x20mm_P0.8mm
-Hitachi  PQFP, 80 Pin (Hitachi FP-80B, 2.70mm body thickness, https://www.icbase.com/pdf/HTH/HTH14270106.pdf#page=9, https://bitsavers.trailing-edge.com/components/hitachi/_dataBooks/1994_M24T026_Hitachi_LCD_Controller_Driver_LSI_Data_Book.pdf#page=28), generated with kicad-footprint-generator ipc_gullwing_generator.py
 Hitachi PQFP QFP Hitachi_FP-80B
 0
 80
