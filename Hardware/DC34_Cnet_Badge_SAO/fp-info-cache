@@ -1,4 +1,4 @@
-26285979451058836
+26290967258697986
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -57847,6 +57847,27 @@ ceramic
 0
 3
 3
+DC34_Cnet_Badge_SAO
+Adafruit-NeoPixel-Ring-16_B
+
+
+0
+6
+6
+DC34_Cnet_Badge_SAO
+LiPo_Battery_SparkFun_PRT-18286
+
+
+0
+0
+0
+DC34_Cnet_Badge_SAO
+MH-CD42 LiPo Battery Management Module Rear Charge LEDs
+
+
+0
+6
+6
 DC34_Cnet_Badge_SAO
 PinSocket_2x03_P2.54mm_Vertical_Tab
 Through hole straight socket strip, 2x03, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated

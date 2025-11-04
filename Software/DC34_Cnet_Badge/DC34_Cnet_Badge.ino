@@ -40,7 +40,7 @@ MFRC522 rfid(RFID_SS, RFID_RST);
 AnimatedGIF gif;
 
 // Playback state
-static const char *DEFAULT_GIF = "/insert_slide_240x240.gif";
+static const char *DEFAULT_GIF = "/scan_sample_240x240.gif";
 String currentGifPath = DEFAULT_GIF;
 String lastUID = "";
 unsigned long lastSwitchMs = 0;   // debounce
@@ -403,7 +403,7 @@ void setup() {
 
   // Start TFT
   tft.begin(40000000);         // try 80000000 if your module tolerates it
-  tft.setRotation(2);
+  tft.setRotation(1);
   tft.fillScreen(0x0000);
 
   // Start SD
