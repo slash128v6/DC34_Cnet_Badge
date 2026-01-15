@@ -57,10 +57,10 @@ struct TagMap { const char *uid; const char *path; };
 TagMap tagMap[] = {
   // {"04:A1:B2:C3:D4:56:78", "/mifare1.gif"},
   // {"DE:AD:BE:EF",          "/deadbeef.gif"},
-  {"01:E4:1A:A2",          "/Virus_2_240x240.gif"},
-  {"2A:BD:A4:CD",          "/Virus_3_240x240.gif"},
-  {"61:E9:F8:A3",          "/rick_roll_240x240.gif"},
-  {"0A:9E:C4:CD",          "/matt_damon_240x240.gif"},
+  // {"01:E4:1A:A2",          "/Virus_2_240x240.gif"},
+  // {"2A:BD:A4:CD",          "/Virus_3_240x240.gif"},
+  // {"61:E9:F8:A3",          "/rick_roll_240x240.gif"},
+  // {"0A:9E:C4:CD",          "/matt_damon_240x240.gif"},
 };
 const size_t tagMapCount = sizeof(tagMap)/sizeof(tagMap[0]);
 // ------------------------------------------------------------------
