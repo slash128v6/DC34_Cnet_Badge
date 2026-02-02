@@ -178,6 +178,13 @@ String mappedPathForUID(const String &uidStr) {
 }
 */
 
+// Visual feedback when RFID tag is scanned
+void showScanFeedback() {
+  // Draw a quick green border
+  tft.drawRect(0, 0, 240, 240, 0x07E0);  // Green
+  delay(100);
+  tft.drawRect(0, 0, 240, 240, 0x0000);  // Black (clear)
+}
 
 // --- config for random assignment ---
 static const char *MAP_FILE   = "/rfid_map.txt";  // persistent UID→path map
@@ -335,6 +342,7 @@ bool checkRFIDAndMaybeSwitch() {
   rfid.PCD_StopCrypto1();
 
   if (switchAllowed) {
+    showScanFeedback();
     Serial.println("[SCAN] Switching GIF.");
     currentGifPath = newPath;
     lastUID = uidStr;
@@ -348,8 +356,6 @@ bool checkRFIDAndMaybeSwitch() {
     return false;
   }
 }
-
-
 
 // Play currentGifPath until it ends OR an RFID switch is requested.
 // Returns true if it switched mid-playback.
