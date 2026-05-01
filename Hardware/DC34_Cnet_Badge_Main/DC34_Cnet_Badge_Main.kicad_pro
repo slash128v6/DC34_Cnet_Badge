@@ -661,7 +661,7 @@
       {
         "filename": "DC34_Cnet_Badge_Main.kicad_sch",
         "name": "DC34_Cnet_Badge_Main",
-        "uuid": "00000000-0000-0000-0000-000000000000"
+        "uuid": "806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68"
       }
     ],
     "used_designators": "",
@@ -670,7 +670,7 @@
   "sheets": [
     [
       "806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68",
-      "Root"
+      "DC34_Cnet_Badge_Main"
     ]
   ],
   "text_variables": {},
