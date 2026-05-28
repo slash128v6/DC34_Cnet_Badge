@@ -1,5 +1,5 @@
 Drill report for DC34_Cnet_Badge_Main.kicad_pcb
-Created on 2026-05-05T09:21:12
+Created on 2026-05-28T10:03:12
 
 Copper Layer Stackup:
     =============================================================
@@ -10,12 +10,12 @@ Copper Layer Stackup:
 Drill file 'DC34_Cnet_Badge_Main-PTH-drl.gbr' contains
     plated through holes:
     =============================================================
-    T1  0.400mm  0.0157"  (4 holes))
-    T2  0.750mm  0.0295"  (2 holes))
-    T3  0.900mm  0.0354"  (2 holes))
-    T4  1.000mm  0.0394"  (66 holes))
+    T1  0.400mm  0.0157"  (6 holes))
+    T2  0.900mm  0.0354"  (2 holes))
+    T3  1.000mm  0.0394"  (65 holes))
+    T4  1.100mm  0.0433"  (2 holes))
 
-    Total plated holes count 74
+    Total plated holes count 75
 
 
 Drill file 'DC34_Cnet_Badge_Main-NPTH-drl.gbr' contains

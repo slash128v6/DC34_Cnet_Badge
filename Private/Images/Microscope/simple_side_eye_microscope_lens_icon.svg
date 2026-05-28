@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <defs>
+    <radialGradient id="lens" cx="45%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#dfffff"/>
+      <stop offset="55%" stop-color="#39cfe8"/>
+      <stop offset="100%" stop-color="#073044"/>
+    </radialGradient>
+    <linearGradient id="metal" x1="130" y1="72" x2="205" y2="168">
+      <stop offset="0%" stop-color="#e8eef0"/>
+      <stop offset="50%" stop-color="#7f8b92"/>
+      <stop offset="100%" stop-color="#20272c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="240" height="240" rx="28" fill="#05070a"/>
+
+  <!-- simple side-view eye shape -->
+  <path d="M32 120
+           C52 96, 86 90, 122 120
+           C86 150, 52 144, 32 120 Z"
+        fill="#eefcff"
+        stroke="#78f2ff"
+        stroke-width="5"
+        stroke-linejoin="round"/>
+
+  <!-- iris seen near the lens side -->
+  <ellipse cx="99" cy="120" rx="11" ry="18" fill="#19c7e8"/>
+  <ellipse cx="103" cy="120" rx="5" ry="11" fill="#02080a"/>
+  <circle cx="96" cy="111" r="3" fill="#ffffff"/>
+
+  <!-- brow / eyelid hint -->
+  <path d="M47 104 C70 87, 98 94, 122 120"
+        fill="none"
+        stroke="#78f2ff"
+        stroke-width="4"
+        stroke-linecap="round"
+        opacity="0.75"/>
+
+  <!-- microscope eyepiece/lens directly in front of eye -->
+  <rect x="130" y="88" width="62" height="64" rx="16"
+        fill="url(#metal)"
+        stroke="#dce8ec"
+        stroke-width="5"/>
+
+  <circle cx="130" cy="120" r="30"
+          fill="#121b20"
+          stroke="#dce8ec"
+          stroke-width="5"/>
+
+  <circle cx="130" cy="120" r="20"
+          fill="url(#lens)"
+          stroke="#5ff5ff"
+          stroke-width="3"/>
+
+  <!-- small contact gap/glow -->
+  <line x1="121" y1="120" x2="130" y2="120"
+        stroke="#91ffff"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <!-- simple microscope tube suggestion -->
+  <path d="M190 120 H218"
+        stroke="#8b969c"
+        stroke-width="16"
+        stroke-linecap="round"/>
+
+  <circle cx="120" cy="120" r="108"
+          fill="none"
+          stroke="#1ddfff"
+          stroke-width="2"
+          opacity="0.35"/>
+</svg>

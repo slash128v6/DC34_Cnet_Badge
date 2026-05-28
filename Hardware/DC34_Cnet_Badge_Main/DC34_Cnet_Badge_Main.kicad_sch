@@ -5,6 +5,176 @@
 	(uuid "806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68")
 	(paper "A4")
 	(lib_symbols
+		(symbol "DC34_Cnet_Badge_Main:Batt"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at -0.762 5.588 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Batt"
+				(at 0.762 13.208 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "DC34_Cnet_Badge_Main:Batt"
+				(at 2.286 8.636 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 1.27 -1.27 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Batt"
+				(at 1.016 10.922 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Batt_1_1"
+				(rectangle
+					(start -4.2164 1.397)
+					(end -5.08 1.143)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start -4.2164 -2.413)
+					(end -5.08 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -4.2164 1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 -2.54) (xy -4.2164 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 1.27 180)
+					(length 3.81)
+					(name "Batt+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 180)
+					(length 3.81)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "DC34_Cnet_Badge_Main:ESP32_Dev_Module-USB-C"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1040,177 +1210,6 @@
 						(effects
 							(font
 								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "DC34_Cnet_Badge_Main:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-				(at 0 -5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "DC34_Cnet_Badge_Main:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3281,6 +3280,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 170.18) (xy 62.23 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09e84e79-6ed7-4bec-a40f-39ecd61ff806")
+	)
+	(wire
+		(pts
 			(xy 180.34 120.65) (xy 180.34 63.5)
 		)
 		(stroke
@@ -3298,16 +3307,6 @@
 			(type default)
 		)
 		(uuid "0e5ce634-1a38-454a-ac1e-419d31bade40")
-	)
-	(wire
-		(pts
-			(xy 29.21 172.72) (xy 34.29 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ee985a5-4713-480d-be9b-c11bc6719190")
 	)
 	(wire
 		(pts
@@ -3351,6 +3350,26 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 147.32) (xy 80.01 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a468965-8bde-48a2-84ea-caab1dd834d0")
+	)
+	(wire
+		(pts
+			(xy 33.02 166.37) (xy 46.99 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c5d03c2-f919-4c66-8721-d81bdeb4fa2a")
+	)
+	(wire
+		(pts
 			(xy 246.38 74.93) (xy 246.38 85.09)
 		)
 		(stroke
@@ -3358,16 +3377,6 @@
 			(type default)
 		)
 		(uuid "1e71c8e4-5724-443d-bcdb-c16402b10f2f")
-	)
-	(wire
-		(pts
-			(xy 40.64 170.18) (xy 40.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e765d40-81fa-4e81-98d7-54bc04c260a8")
 	)
 	(wire
 		(pts
@@ -3561,16 +3570,6 @@
 	)
 	(wire
 		(pts
-			(xy 34.29 172.72) (xy 34.29 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54df9fcc-d985-4438-ac15-0e1c68612d2d")
-	)
-	(wire
-		(pts
 			(xy 168.91 54.61) (xy 168.91 101.6)
 		)
 		(stroke
@@ -3661,16 +3660,6 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 151.13) (xy 80.01 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75cfb102-c615-4922-9c1a-6615d511c1f6")
-	)
-	(wire
-		(pts
 			(xy 64.77 45.72) (xy 78.74 45.72)
 		)
 		(stroke
@@ -3688,16 +3677,6 @@
 			(type default)
 		)
 		(uuid "79dfc658-33b3-48d8-805d-546ba330c244")
-	)
-	(wire
-		(pts
-			(xy 29.21 170.18) (xy 40.64 170.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c5eb578-4865-481f-9009-34d8dcb37489")
 	)
 	(wire
 		(pts
@@ -3811,6 +3790,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 170.18) (xy 62.23 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a177c691-8d28-4004-8d9a-380f57789fe3")
+	)
+	(wire
+		(pts
 			(xy 182.88 128.27) (xy 182.88 135.89)
 		)
 		(stroke
@@ -3851,16 +3840,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 151.13) (xy 80.01 160.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9339395-2637-4640-852a-b89808bd80a6")
-	)
-	(wire
-		(pts
 			(xy 233.68 41.91) (xy 233.68 29.21)
 		)
 		(stroke
@@ -3888,6 +3867,36 @@
 			(type default)
 		)
 		(uuid "b29c6b14-4ceb-4b6a-b045-62d6f239ca34")
+	)
+	(wire
+		(pts
+			(xy 80.01 147.32) (xy 80.01 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4f5a779-c13c-411a-b2df-730469baff3f")
+	)
+	(wire
+		(pts
+			(xy 46.99 144.78) (xy 46.99 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7b31b60-fee6-443c-ba23-523890c519cd")
+	)
+	(wire
+		(pts
+			(xy 60.96 144.78) (xy 46.99 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb7590f4-8023-4bb8-8500-a889adec1372")
 	)
 	(wire
 		(pts
@@ -4131,16 +4140,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 148.59) (xy 45.72 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe8d89bb-3e7b-4703-907d-7bbe24a414cf")
-	)
-	(wire
-		(pts
 			(xy 160.02 128.27) (xy 182.88 128.27)
 		)
 		(stroke
@@ -4300,6 +4299,86 @@
 			(project "DC34_Cnet_Badge_Main"
 				(path "/806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "DC34_Cnet_Badge_Main:Batt")
+		(at 33.02 167.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3329ee9f-8b1c-4e43-91b4-f1ccc5c84d94")
+		(property "Reference" "J4"
+			(at 28.575 161.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Batt"
+			(at 28.575 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "DC34_Cnet_Badge_Main:Batt"
+			(at 35.306 159.004 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 168.91 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Batt"
+			(at 34.036 156.718 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce067210-791f-421f-a109-2be40200f326")
+		)
+		(pin "2"
+			(uuid "967d0b76-c66c-4365-ad71-43431c2a2125")
+		)
+		(instances
+			(project "DC34_Cnet_Badge_Main"
+				(path "/806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -5048,7 +5127,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 34.29 184.15 0)
+		(at 62.23 186.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5059,7 +5138,7 @@
 		(fields_autoplaced yes)
 		(uuid "85c2b208-a150-4e43-92dc-059449f78e3f")
 		(property "Reference" "#PWR016"
-			(at 34.29 190.5 0)
+			(at 62.23 193.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5070,7 +5149,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 34.29 189.23 0)
+			(at 62.23 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5080,7 +5159,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 34.29 184.15 0)
+			(at 62.23 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5091,7 +5170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 34.29 184.15 0)
+			(at 62.23 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +5181,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 34.29 184.15 0)
+			(at 62.23 186.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5210,87 +5289,6 @@
 			(project "DC34_Cnet_Badge_Main"
 				(path "/806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "DC34_Cnet_Badge_Main:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal")
-		(at 24.13 170.18 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "94b73d65-774f-451e-b2ab-1927ef6f57d3")
-		(property "Reference" "J6"
-			(at 24.765 165.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 24.765 167.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "DC34_Cnet_Badge_Main:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 24.13 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 24.13 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 24.13 170.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "506c96df-6fc2-46ba-8d88-7be35a8c7019")
-		)
-		(pin "1"
-			(uuid "37dc5a78-5a3a-442c-9aac-18d8f951a81f")
-		)
-		(instances
-			(project "DC34_Cnet_Badge_Main"
-				(path "/806a8f9b-1f0c-4bd3-b705-2a8cc1fc1a68"
-					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -5957,7 +5955,7 @@
 	)
 	(symbol
 		(lib_id "DC34_Cnet_Badge_Main:JS202011CQN")
-		(at 50.8 156.21 180)
+		(at 66.04 152.4 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5968,7 +5966,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec582618-2f65-4265-ba23-200e8398cdc4")
 		(property "Reference" "S1"
-			(at 50.8 140.97 0)
+			(at 66.04 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5978,7 +5976,7 @@
 			)
 		)
 		(property "Value" "JS202011CQN"
-			(at 50.8 143.51 0)
+			(at 66.04 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5989,7 +5987,7 @@
 			)
 		)
 		(property "Footprint" "SPARKFUN-RETIRED_SWITCH-2.5X3.2-6"
-			(at 50.8 156.21 0)
+			(at 66.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6001,7 +5999,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 156.21 0)
+			(at 66.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6013,7 +6011,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 156.21 0)
+			(at 66.04 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

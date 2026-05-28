@@ -1285,7 +1285,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "DC34_Cnet_Badge_Main:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
