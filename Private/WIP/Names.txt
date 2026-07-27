@@ -1,9 +1,0 @@
-DC34_Cnet_Badge
-
-Names
-VirusScanner.exe
-VirusScan3000
-HackScan3000
-HackerScanner
-Horton AntiViral
-McSassee AntiFungal Scanner
