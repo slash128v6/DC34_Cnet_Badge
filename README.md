@@ -124,7 +124,7 @@ https://espressif.github.io/arduino-esp32/package_esp32_index.json
 
 ![](images/Picture25.png)
 
-21. 21)	Install the following libraries in Library Manager
+21. Install the following libraries in Library Manager
 a.	Adafruit GFX Library by Adafruit
 b.	Adafruit GC9A01A by Adafruit
 c.	AnimatedGIF by Larry Bank
