@@ -81,7 +81,7 @@
 ![](images/Picture12.jpg)
 
 > [!TIP]
-> Polarity matters. Ask Matt Lorimer what happens if you don't verify the LED's polarity ** with the shorter leg into the square hole **
+> According to Matt Lorimer, it's important to leave extra length on the LED so it can be bent over after soldering (see the next picture).
 
 12.	Solder the RGB LED “stage light” through the front of the PCB with the shorter leg into the square hole and bend towards the microscope stage as shown and trim the excess leads from the back to avoid clothing snags:
 
