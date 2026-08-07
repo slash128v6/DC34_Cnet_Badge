@@ -86,7 +86,7 @@
 > [!WARNING]
 > Failure to heed Matt's advice will make him cranky and your LED will stand straight out like a rogue ear hair.
 
-> [!INFO]
+> [!INFORMATION]
 > If you ignore Matt and accidentally offend him, amends can be made with a chocolate milk tribute. 
 
 12.	Solder the RGB LED “stage light” through the front of the PCB with the shorter leg into the square hole and bend towards the microscope stage as shown and trim the excess leads from the back to avoid clothing snags:
