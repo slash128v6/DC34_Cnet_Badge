@@ -82,8 +82,10 @@
 
 > [!TIP]
 > According to Matt Lorimer, it's important to leave extra length on the LED so it can be bent over after soldering (see the next picture).
+
 > [!WARNING]
 > Failure to heed Matt's advice will make him cranky and your LED will stand straight out like a rogue ear hair.
+
 > [!INFO]
 > If you ignore Matt and accidentally offend him, amends can be made with a chocolate milk tribute. 
 
